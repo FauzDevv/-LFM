@@ -298,9 +298,32 @@ section {
 }
 
 .about-content {
-    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    max-width: 1000px;
     margin: 0 auto;
     animation: fadeInUp 1s ease-out;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: var(--shadow-hover);
+    transition: all 0.3s ease;
+    border: 3px solid var(--accent-gold);
+}
+
+.profile-image:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(212, 175, 55, 0.4);
 }
 
 .about-text p {
@@ -733,6 +756,15 @@ section {
 
     .vision-grid {
         grid-template-columns: 1fr;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .profile-image {
+        max-width: 300px;
     }
 
     .about-text p {

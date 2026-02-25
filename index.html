@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lateef Fawas Morenikeji - Faculty of Arts Leadership</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">LFM</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#impact" class="nav-link">Impact</a></li>
+                <li><a href="#vision" class="nav-link">Vision</a></li>
+                <li><a href="#join" class="nav-link">Join</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">A New Voice for the Faculty of Arts.</h1>
+            <p class="hero-subtitle">Leadership. Innovation. Representation.</p>
+            <p class="hero-intro">Lateef Fawas Morenikeji is committed to strengthening the Faculty of Arts through innovation, academic support, and active student engagement.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('vision').scrollIntoView({behavior: 'smooth'})">Discover the Vision</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('join').scrollIntoView({behavior: 'smooth'})">Be Part of the Movement</button>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Who is Lateef Fawas Morenikeji?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A <strong>forward-thinking student</strong> in the Faculty of Arts with a passion for meaningful change.</p>
+                    <p>Driven by a commitment to <strong>academic development</strong> and the belief that technology can transform student experience.</p>
+                    <p>A believer in <strong>digital innovation</strong> — proving that students can lead solutions, not just consume them.</p>
+                    <p>Dedicated to <strong>unity and student growth</strong>, with a vision of a Faculty where every voice matters.</p>
+                    <p class="about-highlight">Someone <strong>preparing to serve at a higher level</strong> — building the foundation today for tomorrow's impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact & Achievements Section -->
+    <section id="impact" class="impact">
+        <div class="container">
+            <h2 class="section-title">Impact That Speaks</h2>
+            <p class="section-subtitle">Leadership is not a title. It is action.</p>
+            
+            <div class="achievement-card">
+                <div class="achievement-icon">✅</div>
+                <h3>Creator of a Study Support Website for the Department</h3>
+                <p>Built a digital platform empowering students to access course materials, past questions, and comprehensive study resources.</p>
+                <ul class="achievement-list">
+                    <li>💡 Solution-driven initiative addressing real student needs</li>
+                    <li>🚀 A move toward digital transformation in the Faculty</li>
+                    <li>🎯 Proof of leadership through action, not through titles</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="vision">
+        <div class="container">
+            <h2 class="section-title">The Future of Arts Starts Here</h2>
+            <p class="section-subtitle">Five pillars guiding a stronger Faculty</p>
+            
+            <div class="vision-grid">
+                <div class="vision-card">
+                    <div class="vision-icon">📚</div>
+                    <h4>Academic Empowerment</h4>
+                    <p>Students deserve access to resources, mentorship, and support systems that elevate their academic journey.</p>
+                </div>
+                
+                <div class="vision-card">
+                    <div class="vision-icon">💻</div>
+                    <h4>Digital Transformation</h4>
+                    <p>Bringing the Faculty of Arts into the digital age with platforms that enhance learning and collaboration.</p>
+                </div>
+                
+                <div class="vision-card">
+                    <div class="vision-icon">🤝</div>
+                    <h4>Stronger Student Representation</h4>
+                    <p>Ensuring every student's voice is heard and valued in decisions that affect our Faculty.</p>
+                </div>
+                
+                <div class="vision-card">
+                    <div class="vision-icon">💬</div>
+                    <h4>Transparent Communication</h4>
+                    <p>Building trust through open dialogue, clear updates, and genuine engagement with the student body.</p>
+                </div>
+                
+                <div class="vision-card">
+                    <div class="vision-icon">🌱</div>
+                    <h4>Inclusive Growth</h4>
+                    <p>A Faculty where all students — regardless of background — can thrive and contribute to our community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message to FASA Students -->
+    <section class="message">
+        <div class="container">
+            <div class="message-box">
+                <h2>A Message to FASA Students</h2>
+                <p class="message-text">
+                    "Our Faculty deserves <strong>proactive leadership</strong>, <strong>practical solutions</strong>, and a voice that <strong>truly represents</strong> the students. The journey toward a stronger Faculty of Arts has already begun — and it's driven by action, not promises."
+                </p>
+                <p class="message-author">— Lateef Fawas Morenikeji</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join the Movement Section -->
+    <section id="join" class="join">
+        <div class="container">
+            <h2 class="section-title">Join the Movement</h2>
+            <p class="section-subtitle">Be part of something bigger</p>
+            
+            <div class="join-options">
+                <form class="form-container" id="joinForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Department" id="department" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Suggestion or Idea" id="suggestion" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Support the Vision</button>
+                    <p class="form-message" id="formMessage"></p>
+                </form>
+
+                <div class="whatsapp-card">
+                    <div class="whatsapp-icon">💬</div>
+                    <h4>Connect on WhatsApp</h4>
+                    <p>Join our community and stay updated on the latest developments.</p>
+                    <a href="https://chat.whatsapp.com" class="btn btn-whatsapp" target="_blank">
+                        Open WhatsApp Group
+                    </a>
+                    <p class="whatsapp-note">Quick collaboration. Real conversations. Direct impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon Section -->
+    <section class="coming-soon">
+        <div class="container">
+            <div class="coming-soon-content">
+                <h2>Something Bigger Is Coming.</h2>
+                <div class="coming-soon-text">
+                    <p>Good day, great students of the Faculty of Arts.</p>
+                    <p>Over the past months, I have listened. I have observed. And I have taken action.</p>
+                    <p>From creating academic support systems to introducing digital solutions, I believe our Faculty deserves proactive leadership and practical impact.</p>
+                    <p><strong>Leadership is not about titles. It is about responsibility.</strong></p>
+                    <p>The future of FASA is evolving.</p>
+                    <p><em>Stay informed. Stay ready.</em></p>
+                </div>
+
+                <!-- countdown placeholder -->
+                <div class="countdown-placeholder">
+                    <!-- timer would go here -->
+                </div>
+
+                <a href="#join" class="btn btn-primary stay-connected">Stay Connected</a>
+
+                <div class="coming-soon-indicator">
+                    <div class="pulse"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lateef Fawas Morenikeji. Faculty of Arts. All rights reserved.</p>
+            <p class="footer-tagline">Building the Future of Arts Leadership</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
